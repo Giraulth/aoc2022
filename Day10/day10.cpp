@@ -27,7 +27,6 @@ int main()
             for (int i=0;i<2;i++){
                 numCycle ++;
                 if (numCycle == 20 || (numCycle - 20) % 40 == 0){
-                    cout << "score :" << score << " numCycle : " << numCycle << endl;
                     signalStrength += score * numCycle;
                 }
             }
@@ -36,7 +35,6 @@ int main()
         else{
             numCycle++;
             if (numCycle == 20 || (numCycle - 20) % 40 == 0){
-                cout << "score :" << score << " numCycle : " << numCycle << endl;
                 signalStrength += score * numCycle;
             }
         }

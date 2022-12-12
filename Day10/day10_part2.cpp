@@ -39,8 +39,6 @@ int main()
                 else{
                     res.push_back(' ');
                 }
- 
-                cout << numCycle << " " << lowBound << " " << highBound << endl;
             }
             lowBound += nb;
             highBound += nb;
@@ -56,8 +54,6 @@ int main()
             else{
                 res.push_back(' ');
             }
-
-            cout << numCycle << " " << lowBound << " " << highBound << endl;
         }
     }
 
